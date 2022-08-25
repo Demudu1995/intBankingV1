@@ -156,3 +156,50 @@
 2022-08-24 17:02:05,639 - initBankingV1 -INFO - entered password
 2022-08-24 17:02:17,944 - initBankingV1 -INFO - clicked
 2022-08-24 17:02:17,967 - initBankingV1 -INFO - login test passed
+2022-08-25 14:32:25,370 - initBankingV1 -INFO - base url opened
+2022-08-25 14:32:25,492 - initBankingV1 -INFO - entered username
+2022-08-25 14:32:25,566 - initBankingV1 -INFO - entered password
+2022-08-25 14:32:39,610 - initBankingV1 -INFO - clicked
+2022-08-25 14:32:39,630 - initBankingV1 -INFO - login test passed
+2022-08-25 14:57:57,838 - initBankingV1 -INFO - base url opened
+2022-08-25 14:57:57,934 - initBankingV1 -INFO - entered username
+2022-08-25 14:57:58,003 - initBankingV1 -INFO - entered password
+2022-08-25 14:58:10,893 - initBankingV1 -INFO - clicked
+2022-08-25 14:58:10,941 - initBankingV1 -INFO - login test passed
+2022-08-25 14:58:19,541 - initBankingV1 -INFO - username provided
+2022-08-25 14:58:19,605 - initBankingV1 -INFO - password provided
+2022-08-25 14:58:33,959 - initBankingV1 -INFO - username provided
+2022-08-25 14:58:34,040 - initBankingV1 -INFO - password provided
+2022-08-25 14:58:50,067 - initBankingV1 -INFO - username provided
+2022-08-25 14:58:50,129 - initBankingV1 -INFO - password provided
+2022-08-25 14:59:03,829 - initBankingV1 -INFO - username provided
+2022-08-25 14:59:03,965 - initBankingV1 -INFO - password provided
+2022-08-25 15:48:29,303 - initBankingV1 -INFO - base url opened
+2022-08-25 15:48:29,446 - initBankingV1 -INFO - entered username
+2022-08-25 15:48:29,522 - initBankingV1 -INFO - entered password
+2022-08-25 15:48:41,940 - initBankingV1 -INFO - clicked
+2022-08-25 15:48:41,989 - initBankingV1 -INFO - login test passed
+2022-08-25 15:48:49,583 - initBankingV1 -INFO - username provided
+2022-08-25 15:48:49,674 - initBankingV1 -INFO - password provided
+2022-08-25 15:49:02,384 - initBankingV1 -INFO - username provided
+2022-08-25 15:49:02,450 - initBankingV1 -INFO - password provided
+2022-08-25 15:49:08,726 - initBankingV1 -INFO - username provided
+2022-08-25 15:49:08,887 - initBankingV1 -INFO - password provided
+2022-08-25 15:49:15,057 - initBankingV1 -INFO - username provided
+2022-08-25 15:49:15,147 - initBankingV1 -INFO - password provided
+2022-08-25 15:51:13,645 - initBankingV1 -INFO - login passed
+2022-08-25 16:09:41,944 - initBankingV1 -INFO - base url opened
+2022-08-25 16:09:42,043 - initBankingV1 -INFO - entered username
+2022-08-25 16:09:42,117 - initBankingV1 -INFO - entered password
+2022-08-25 16:09:55,797 - initBankingV1 -INFO - clicked
+2022-08-25 16:09:55,835 - initBankingV1 -INFO - login test passed
+2022-08-25 16:19:47,446 - initBankingV1 -INFO - base url opened
+2022-08-25 16:19:47,595 - initBankingV1 -INFO - entered username
+2022-08-25 16:19:47,686 - initBankingV1 -INFO - entered password
+2022-08-25 16:20:00,289 - initBankingV1 -INFO - clicked
+2022-08-25 16:20:00,346 - initBankingV1 -INFO - login test passed
+2022-08-25 17:09:16,248 - initBankingV1 -INFO - base url opened
+2022-08-25 17:09:16,352 - initBankingV1 -INFO - entered username
+2022-08-25 17:09:16,416 - initBankingV1 -INFO - entered password
+2022-08-25 17:09:28,755 - initBankingV1 -INFO - clicked
+2022-08-25 17:09:28,779 - initBankingV1 -INFO - login test passed

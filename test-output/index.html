@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-InetBankingV9" class="navigator-link">
-              <span class="suite-name border-passed">InetBankingV9</span>
+              <span class="suite-name border-failed">InetBankingV9</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,36 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">5 methods, 4 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-InetBankingV9" class="hide-methods failed suite-InetBankingV9"> (hide)</a> <!-- hide-methods failed suite-InetBankingV9 -->
+                      <a href="#" panel-name="suite-InetBankingV9" class="show-methods failed suite-InetBankingV9"> (show)</a> <!-- show-methods failed suite-InetBankingV9 -->
+                    </span>
+                    <div class="method-list-content failed suite-InetBankingV9">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-InetBankingV9" title="com.inetbanking.Testcases.Tc_Login_002" class="method navigator-link" hash-for-method="loginDDT(zEtamAs, mngr425620)">loginDDT(zEtamAs, mngr425620)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-InetBankingV9" title="com.inetbanking.Testcases.Tc_Login_002" class="method navigator-link" hash-for-method="loginDDT(mngr425620, zEtamAs)">loginDDT(mngr425620, zEtamAs)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-InetBankingV9" title="com.inetbanking.Testcases.Tc_Login_002" class="method navigator-link" hash-for-method="loginDDT(mngr425620, zEtamAs)">loginDDT(mngr425620, zEtamAs)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-InetBankingV9" title="com.inetbanking.Testcases.Tc_Login_002" class="method navigator-link" hash-for-method="loginDDT(zEtamAs, mngr425620)">loginDDT(zEtamAs, mngr425620)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-InetBankingV9 -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -119,6 +148,120 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-InetBankingV9" class="panel InetBankingV9">
+          <div class="suite-InetBankingV9-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.inetbanking.Testcases.Tc_Login_002</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginDDT(zEtamAs, mngr425620)">
+                  </a> <!-- loginDDT(zEtamAs, mngr425620) -->
+                  <span class="method-name">loginDDT</span>
+                  <span class="parameters">(zEtamAs, mngr425620)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=104.0.5112.102)
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;ENG-LNO-DT002&apos;, ip: &apos;10.33.82.83&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3c066a735153ed819ed4e8d7240283ab, clickElement {id=4e0b9d58-40f7-48c0-b71c-2b7229b28554}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\DEMUDU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54605}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54605/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (3c066a735153ed819ed4e8d7240283ab)] -&gt; name: btnLogin]
+Session ID: 3c066a735153ed819ed4e8d7240283ab
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+	at com.inetbanking.pageObjects.LoginPage.clickSubmit(LoginPage.java:50)
+	at com.inetbanking.Testcases.Tc_Login_002.loginDDT(Tc_Login_002.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginDDT(mngr425620, zEtamAs)">
+                  </a> <!-- loginDDT(mngr425620, zEtamAs) -->
+                  <span class="method-name">loginDDT</span>
+                  <span class="parameters">(mngr425620, zEtamAs)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=104.0.5112.102)
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;ENG-LNO-DT002&apos;, ip: &apos;10.33.82.83&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [685102a277ac41ec7dbf83625b9d69b1, clickElement {id=a2f30427-5584-4b16-bf60-664488f5e9d9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\DEMUDU~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54668}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54668/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (685102a277ac41ec7dbf83625b9d69b1)] -&gt; name: btnLogin]
+Session ID: 685102a277ac41ec7dbf83625b9d69b1
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+	at com.inetbanking.pageObjects.LoginPage.clickSubmit(LoginPage.java:50)
+	at com.inetbanking.Testcases.Tc_Login_002.loginDDT(Tc_Login_002.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginDDT(mngr425620, zEtamAs)">
+                  </a> <!-- loginDDT(mngr425620, zEtamAs) -->
+                  <span class="method-name">loginDDT</span>
+                  <span class="parameters">(mngr425620, zEtamAs)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.inetbanking.Testcases.Tc_Login_002.loginDDT(Tc_Login_002.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginDDT(zEtamAs, mngr425620)">
+                  </a> <!-- loginDDT(zEtamAs, mngr425620) -->
+                  <span class="method-name">loginDDT</span>
+                  <span class="parameters">(zEtamAs, mngr425620)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //a[text()=&apos;Log out&apos;]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;ENG-LNO-DT002&apos;, ip: &apos;10.33.82.83&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+	at com.inetbanking.pageObjects.LoginPage.logoutMethod(LoginPage.java:54)
+	at com.inetbanking.Testcases.Tc_Login_002.loginDDT(Tc_Login_002.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-InetBankingV9-class-failed -->
           <div class="suite-InetBankingV9-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -151,6 +294,7 @@
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.inetbanking.Testcases.Tc_Login_001&quot;/&gt;
+      &lt;class name=&quot;com.inetbanking.Testcases.Tc_Login_002&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Banking app test chrome --&gt;
 &lt;/suite&gt; &lt;!-- InetBankingV9 --&gt;
@@ -164,7 +308,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Banking app test chrome (1 class)</span>
+                <span class="test-name">Banking app test chrome (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -190,16 +334,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'LoginTest')
-data.setCell(0, 2, 'com.inetbanking.Testcases.Tc_Login_001')
-data.setCell(0, 3, 12409);
+data.setCell(0, 1, 'loginDDT')
+data.setCell(0, 2, 'com.inetbanking.Testcases.Tc_Login_002')
+data.setCell(0, 3, 119872);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'LoginTest')
+data.setCell(1, 2, 'com.inetbanking.Testcases.Tc_Login_001')
+data.setCell(1, 3, 12690);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginDDT')
+data.setCell(2, 2, 'com.inetbanking.Testcases.Tc_Login_002')
+data.setCell(2, 3, 7506);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginDDT')
+data.setCell(3, 2, 'com.inetbanking.Testcases.Tc_Login_002')
+data.setCell(3, 3, 639);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginDDT')
+data.setCell(4, 2, 'com.inetbanking.Testcases.Tc_Login_002')
+data.setCell(4, 3, 548);
 window.suiteTableData['InetBankingV9']= { tableData: data, tableDiv: 'times-div-InetBankingV9'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-InetBankingV9">
               </div> <!-- times-div-InetBankingV9 -->
             </div> <!-- times-div -->
@@ -232,11 +392,70 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LoginTest</span>
-                <span class="method-start">8921 ms</span>
+                <span class="method-start">7634 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">21345 ms</span>
+                <span class="method-start">20338 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.inetbanking.Testcases.Tc_Login_002</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">21633 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginDDT(mngr425620, zEtamAs)</span>
+                <span class="method-start">27780 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">35290 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">35655 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginDDT(zEtamAs, mngr425620)</span>
+                <span class="method-start">40647 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">41205 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">41531 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginDDT(mngr425620, zEtamAs)</span>
+                <span class="method-start">46961 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">47602 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">47919 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginDDT(zEtamAs, mngr425620)</span>
+                <span class="method-start">53264 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">173139 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
